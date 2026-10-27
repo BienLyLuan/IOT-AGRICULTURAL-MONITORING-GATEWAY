@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"node_input2\startup_stm32f103xb.o"
+"node_input2\main.o"
+"node_input2\stm32f1xx_it.o"
+"node_input2\stm32f1xx_hal_msp.o"
+"node_input2\stm32f1xx_hal_gpio_ex.o"
+"node_input2\stm32f1xx_hal_adc.o"
+"node_input2\stm32f1xx_hal_adc_ex.o"
+"node_input2\stm32f1xx_hal.o"
+"node_input2\stm32f1xx_hal_rcc.o"
+"node_input2\stm32f1xx_hal_rcc_ex.o"
+"node_input2\stm32f1xx_hal_gpio.o"
+"node_input2\stm32f1xx_hal_dma.o"
+"node_input2\stm32f1xx_hal_cortex.o"
+"node_input2\stm32f1xx_hal_pwr.o"
+"node_input2\stm32f1xx_hal_flash.o"
+"node_input2\stm32f1xx_hal_flash_ex.o"
+"node_input2\stm32f1xx_hal_exti.o"
+"node_input2\stm32f1xx_hal_tim.o"
+"node_input2\stm32f1xx_hal_tim_ex.o"
+"node_input2\stm32f1xx_hal_uart.o"
+"node_input2\system_stm32f1xx.o"
+--strict --scatter "Node_Input2\Node_Input2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Node_Input2.map" -o Node_Input2\Node_Input2.axf

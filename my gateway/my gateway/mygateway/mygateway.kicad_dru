@@ -1,0 +1,4 @@
+(version 1)
+(rule "RF gap to GND pour"
+  (condition "A.NetClass == 'RF_50R' && B.Type == 'Zone'")
+  (constraint clearance (min 0.2mm)))

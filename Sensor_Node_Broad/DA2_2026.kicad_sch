@@ -1,0 +1,1253 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8752f3a8-a2c6-40c5-9693-300f02d352a9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "IVS_SYMBOL:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "SWD"
+		(exclude_from_sim no)
+		(at 195.58 137.16 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "2615acd2-61d5-4ffe-b742-66696b7c66d6")
+	)
+	(text "LORA_E32\n"
+		(exclude_from_sim no)
+		(at 134.62 137.16 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "26b7e41e-1343-4d36-a3a7-765b96ff9a3f")
+	)
+	(text "CB_RS485(x2)\n"
+		(exclude_from_sim no)
+		(at 140.97 144.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "7bf33b9d-7a60-41eb-9809-905744d7a702")
+	)
+	(text "CB_I2C"
+		(exclude_from_sim no)
+		(at 171.45 137.16 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d1a50391-766f-4cc6-8ff0-9f5a4edd7081")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 68.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005374fa-8dee-457f-a8e1-4e4d1b45804b")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 152.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8979dc-ade4-4da8-a0ec-b6f489480af1")
+	)
+	(wire
+		(pts
+			(xy 64.77 104.14) (xy 64.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323077cf-45bd-4559-9df2-b58cd8a15fe1")
+	)
+	(wire
+		(pts
+			(xy 58.42 58.42) (xy 58.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371bd582-33a2-4b9b-af5e-66c881d4e342")
+	)
+	(wire
+		(pts
+			(xy 102.87 143.51) (xy 118.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54907360-bff0-44c9-9aee-b14b09cfbd5b")
+	)
+	(wire
+		(pts
+			(xy 168.91 104.14) (xy 168.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abcf62c-2dce-435d-8239-5918b4aba6d6")
+	)
+	(wire
+		(pts
+			(xy 156.21 104.14) (xy 156.21 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ed9e47-185d-4278-a181-0779fd204b16")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750535a8-7618-4b08-87f9-b13e82e17861")
+	)
+	(wire
+		(pts
+			(xy 196.85 104.14) (xy 196.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7640a214-9cbd-4bde-b80d-cc356d8a0791")
+	)
+	(wire
+		(pts
+			(xy 193.04 104.14) (xy 193.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799dac69-fa4d-4ba5-b623-5d92a69a8179")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf0a4e2-bfce-4f73-bfec-b3a14342a9b3")
+	)
+	(wire
+		(pts
+			(xy 138.43 104.14) (xy 138.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0eed1e-2a0d-4ec3-9dcc-5948c2b04c00")
+	)
+	(wire
+		(pts
+			(xy 140.97 104.14) (xy 140.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62edbed-53df-4d47-b8fa-ef9ce0d389e0")
+	)
+	(wire
+		(pts
+			(xy 59.69 104.14) (xy 59.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6655831-de3b-4876-9cd2-6184e88b1046")
+	)
+	(wire
+		(pts
+			(xy 102.87 146.05) (xy 118.11 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d5e2da-b816-42f3-a7f6-8237352acd8e")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 127 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa36044a-c3de-456d-bff1-1c4345d3e9fc")
+	)
+	(wire
+		(pts
+			(xy 133.35 104.14) (xy 133.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64f1c25-b109-4d4a-86b0-4ae13502490f")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 55.88 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5163b8-00fd-41e9-aea1-2ed1030f34ed")
+	)
+	(wire
+		(pts
+			(xy 181.61 104.14) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0556538-28d8-41af-b079-213ee56e8bc8")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 135.89 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd0a056-d783-4b6f-b951-d1dd688f5973")
+	)
+	(symbol
+		(lib_id "IVS_SYMBOL:MountingHole")
+		(at 226.06 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48245eb6-64cb-45cb-a0e4-139f46ef38ff")
+		(property "Reference" "H3"
+			(at 228.6 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 228.6 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AIOTSEMI_FOOTPRINT:MountingHole_3.2mm_M3_Pad_Via"
+			(at 226.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 226.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DA2_2026"
+				(path "/8752f3a8-a2c6-40c5-9693-300f02d352a9"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IVS_SYMBOL:MountingHole")
+		(at 226.06 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61695069-4ae0-4ebe-88ca-0edf3b9aceda")
+		(property "Reference" "H1"
+			(at 228.6 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 228.6 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AIOTSEMI_FOOTPRINT:MountingHole_3.2mm_M3_Pad_Via"
+			(at 226.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 226.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DA2_2026"
+				(path "/8752f3a8-a2c6-40c5-9693-300f02d352a9"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IVS_SYMBOL:MountingHole")
+		(at 226.06 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81bd695e-fba5-42c9-be5c-c32d8bd0a05a")
+		(property "Reference" "H4"
+			(at 228.6 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 228.6 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AIOTSEMI_FOOTPRINT:MountingHole_3.2mm_M3_Pad_Via"
+			(at 226.06 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 226.06 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DA2_2026"
+				(path "/8752f3a8-a2c6-40c5-9693-300f02d352a9"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IVS_SYMBOL:MountingHole")
+		(at 226.06 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd293d43-0b44-44d7-8b87-bb4f9d4dc930")
+		(property "Reference" "H2"
+			(at 228.6 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 228.6 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AIOTSEMI_FOOTPRINT:MountingHole_3.2mm_M3_Pad_Via"
+			(at 226.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 226.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DA2_2026"
+				(path "/8752f3a8-a2c6-40c5-9693-300f02d352a9"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 20.32)
+		(size 179.07 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 229 255 62 1)
+		)
+		(uuid "2a55618e-6d68-42a0-8dc7-d630c6770cfc")
+		(property "Sheetname" "Power"
+			(at 27.432 28.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(thickness 0.635)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerBlock.kicad_sch"
+			(at 25.4 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vbat_monitor" output
+			(at 58.42 58.42 270)
+			(uuid "13324dff-3462-4f86-a346-6690af6db42f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DA2_2026"
+				(path "/8752f3a8-a2c6-40c5-9693-300f02d352a9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 68.58)
+		(size 177.8 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 250 213 1)
+		)
+		(uuid "2b4ae661-ab37-4331-8536-fc4584065fe9")
+		(property "Sheetname" "MCU"
+			(at 25.908 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(thickness 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 25.4 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vbat_monitor" input
+			(at 58.42 68.58 90)
+			(uuid "7ac025ab-5a15-483b-a365-221f0dfe3d3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_RS485" input
+			(at 55.88 104.14 270)
+			(uuid "eb4fa97c-50fb-464a-977f-9674292dd764")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 168.91 104.14 270)
+			(uuid "7d3dce1b-6cae-4f49-a28c-ef25cf9d13e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 172.72 104.14 270)
+			(uuid "76a17829-6ef9-4e03-8a4e-446520df79bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LORA_AUX" input
+			(at 138.43 104.14 270)
+			(uuid "90b7867e-9812-4f32-857c-4ba8915b9f07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LORA_EN" input
+			(at 140.97 104.14 270)
+			(uuid "11948612-0b04-48ae-896f-2bd3fc12f542")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LORA_M0" input
+			(at 127 104.14 270)
+			(uuid "b9fd10ce-9504-4964-8c99-2d5c9ff995a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LORA_M1" input
+			(at 129.54 104.14 270)
+			(uuid "7a76e9db-a3f3-419b-bf8e-b16e7fb31b34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_DIR" input
+			(at 59.69 104.14 270)
+			(uuid "b11c22c4-7c1f-4c4c-8c21-0c29881adf40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 193.04 104.14 270)
+			(uuid "5c0c2a4d-1df1-48a8-88c1-ed00aa16c3ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 196.85 104.14 270)
+			(uuid "a0824e35-7588-49a2-9eb2-2d113b3b388c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1_RX" input
+			(at 135.89 104.14 270)
+			(uuid "c18ddf0e-c404-4911-aaf3-33de2fcd5ebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1_TX" input
+			(at 133.35 104.14 270)
+			(uuid "41526912-7177-49f5-8ab4-e2c32d015920")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2_RX" input
+			(at 68.58 104.14 270)
+			(uuid "599d0ce7-1819-4ec4-975f-20ff936fb74b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2_TX" input
+			(at 64.77 104.14 270)
+			(uuid "264da4e5-36c5-4165-89d9-8d91638d035f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART3_RX" input
+			(at 152.4 104.14 270)
+			(uuid "cbc19a18-f301-4c79-ae56-9667c862dddd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART3_TX" input
+			(at 156.21 104.14 270)
+			(uuid "493c088d-77f8-4e10-880d-b2f7e4936065")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER" input
+			(at 181.61 104.14 270)
+			(uuid "6cdd24dd-200b-419d-8c76-890c32c9b912")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DA2_2026"
+				(path "/8752f3a8-a2c6-40c5-9693-300f02d352a9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 124.46)
+		(size 85.09 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 250 213 1)
+		)
+		(uuid "96fa2448-b6bf-40a7-961f-85511319cade")
+		(property "Sheetname" "Peripherals(Lora module, header ,..)"
+			(at 111.76 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 118.11 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 168.91 124.46 90)
+			(uuid "806114f5-9966-4006-9836-736872863358")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 172.72 124.46 90)
+			(uuid "ac15b19a-3752-4aaa-a339-11567ae92b83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LORA_AUX" input
+			(at 138.43 124.46 90)
+			(uuid "27041d86-1150-41e5-b1e1-719163eed88b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LORA_EN" input
+			(at 140.97 124.46 90)
+			(uuid "5fc83527-6604-4ba5-ba6b-5422bda4f851")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LORA_M0" input
+			(at 127 124.46 90)
+			(uuid "e9128aa1-8573-4fa8-b32c-7f81242b28de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LORA_M1" input
+			(at 129.54 124.46 90)
+			(uuid "faa30124-ce80-465a-9352-4a98cc2622bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" input
+			(at 196.85 124.46 90)
+			(uuid "ae369893-eddb-4750-93a9-b6e5de6789d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" input
+			(at 193.04 124.46 90)
+			(uuid "d14ccd38-6b96-4b31-9d45-0dd082a72535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_RX" input
+			(at 135.89 124.46 90)
+			(uuid "0a7c4a32-a9ad-4f58-94b5-b9fdd8623c23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_TX" input
+			(at 133.35 124.46 90)
+			(uuid "bb82b4ac-03fe-4807-90f7-8c0f8d3318f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART3_RX" input
+			(at 152.4 124.46 90)
+			(uuid "38deb62d-230b-46e8-83ef-a2947c34df65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART3_TX" input
+			(at 156.21 124.46 90)
+			(uuid "dac5a556-9401-4bcb-aa4f-79ee1e33d039")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "485_A" input
+			(at 118.11 143.51 180)
+			(uuid "ebc76f5a-92c9-4f1d-8779-00b1ef78c15a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "485_B" input
+			(at 118.11 146.05 180)
+			(uuid "22145bf8-be53-49e9-a09a-72fe9ed6f804")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER" input
+			(at 181.61 124.46 90)
+			(uuid "82883631-ed92-4982-8c79-0f1b5d86e952")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DA2_2026"
+				(path "/8752f3a8-a2c6-40c5-9693-300f02d352a9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 123.19)
+		(size 78.74 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 250 213 1)
+		)
+		(uuid "acbe838d-ec6c-4a17-a68e-6dbb7a5fe60f")
+		(property "Sheetname" "RS485"
+			(at 23.368 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 24.13 130.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN_RS485" input
+			(at 55.88 123.19 90)
+			(uuid "bee9ee02-2fc9-4b83-b58b-532246267d50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_DIR" input
+			(at 59.69 123.19 90)
+			(uuid "0511fac1-cfed-4376-98ec-13bfd67f1e5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART2_RX" input
+			(at 68.58 123.19 90)
+			(uuid "d34a0945-4a7b-4949-af90-1f8823267a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART2_TX" input
+			(at 64.77 123.19 90)
+			(uuid "d7b5e5e2-4cc3-4101-98ad-29b6e6bf7308")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "485_A" input
+			(at 102.87 143.51 0)
+			(uuid "8c0ed832-df62-4a93-ae90-33bc5832875d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "485_B" input
+			(at 102.87 146.05 0)
+			(uuid "fbc3a23b-e2f9-4ec4-a436-16218890a4b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DA2_2026"
+				(path "/8752f3a8-a2c6-40c5-9693-300f02d352a9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
